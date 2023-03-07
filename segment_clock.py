@@ -27,7 +27,7 @@ def display_time():
     current_second = list(str(time.strftime('%S')))
     current_time = current_hour + current_minute + current_second
     
-    # convert current_time list to intagers and print in as segment
+    # convert current_time list to integers and print in as segment
     for i in current_time:
         display_digit(eval(i))
         print('\n')
